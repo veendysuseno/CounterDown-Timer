@@ -30,24 +30,25 @@ A countdown timer is a tool that functions to show time whose working principle 
 
 ## Information Pin-Configuration:
 
-- Pin pada LCD:
-  • Pin VSS – Ground
-  • Pin VDD – 5V
-  • Pin VO – Potensio
-  • Pin RS – Pin 12 Arduino
-  • Pin R_W – Ground
-  • Pin E – Pin 11 Arduino
-  • Pin DB4 – Pin 5 Arduino
-  • Pin DB5 – Pin 4 Arduino
-  • Pin DB6 – Pin 3 Arduino
-  • Pin DB7 – Pin 2 Arduino
-  • Pin A – 5V
-  • Pin K – Ground
-- Reset Button: Pin 6;
-- Start/Stop Button: Pin 7;
-- Down Button: Pin 8;
-- Up Button: Pin 9;
-- Buzzer: Pin 10
+- Pin pada LCD: <br/>
+  • Pin VSS – Ground <br/>
+  • Pin VDD – 5V <br/>
+  • Pin VO – Potensio <br/>
+  • Pin RS – Pin 12 Arduino <br/>
+  • Pin R_W – Ground <br/>
+  • Pin E – Pin 11 Arduino <br/>
+  • Pin DB4 – Pin 5 Arduino <br/>
+  • Pin DB5 – Pin 4 Arduino <br/>
+  • Pin DB6 – Pin 3 Arduino <br/>
+  • Pin DB7 – Pin 2 Arduino <br/>
+  • Pin A – 5V <br/>
+  • Pin K – Ground <br/>
+  <br/>
+- Reset Button: Pin 6;<br/>
+- Start/Stop Button: Pin 7;<br/>
+- Down Button: Pin 8;<br/>
+- Up Button: Pin 9; <br/>
+- Buzzer: Pin 10.<br/>
 
 ## How It Works
 
@@ -77,4 +78,4 @@ In this project there is a timer with 4 modes, namely: <br/>
 2. Setup: You can enter this mode by long pressing RS(Reset). here, using ST(start stop button), you can choose which value to change to set the time to count down later. finally, using DW (down button) and UP (up button), you can decrease or increase the selected value (hours, minutes or seconds). <br/>
 3. Running: You can enter this mode by pressing ST, while exiting this mode will require ST or RS (which will take you to IDLE mode). <br/>
 4. Ringing: When the desired time has passed, this mode is automatically active. You can return it to its original state by pressing any button. <br/>
-"# CounterDown-Timer" 
+   "# CounterDown-Timer"
