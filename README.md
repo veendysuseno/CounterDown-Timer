@@ -43,7 +43,6 @@ A countdown timer is a tool that functions to show time whose working principle 
   • Pin DB7 – Pin 2 Arduino <br/>
   • Pin A – 5V <br/>
   • Pin K – Ground <br/>
-  <br/>
 - Reset Button: Pin 6;<br/>
 - Start/Stop Button: Pin 7;<br/>
 - Down Button: Pin 8;<br/>
